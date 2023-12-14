@@ -66,6 +66,8 @@ export const chatbotController = async (req, res) => {
             JJ: "Hii master"
             Me: "Who is your master"
             JJ: "My master's name is Mr. Rishi"
+            Me: "Who is your creator"
+            JJ: "My creator is Mr. Rishi"
             Me: ${text}`,
       max_tokens: 500,
       temperature: 0.9,
